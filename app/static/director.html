@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Director View - Theatre Blocking</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="actor.html">Actor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="director.html">Director<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Director View</h3>
+      </div>
+
+
+      <input id='scriptNumText' type="text" name="" placeholder="Script number">
+      <button class="btn btn-sm btn-info" onclick="getBlocking()" role="button">Get Script Blocking</button>
+      <button class="btn btn-sm btn-success" onclick="changeScript()" role="button">Save Script Blocking</button>
+
+      <p>Modifying blocking for script number: <span id='scriptNum' style='font-style: italic;'></span></p>
+
+      <div id='blocks' class="row marketing">
+        <!-- Blocks will be populated in this element. -->
+      </div>
+
+      <footer class="footer">
+        <p>CSC301 Winter 2019</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="js/director.js"></script>
+  </body>
+</html>

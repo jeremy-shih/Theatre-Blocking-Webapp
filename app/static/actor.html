@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Actor View - Theatre Blocking</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="actor.html">Actor<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="director.html">Director</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Actor View</h3>
+      </div>
+
+      <button class="btn btn-sm btn-info" onclick="getExampleBlock()" role="button">Add example block (from server)</button> &nbsp;<button class="btn btn-sm btn-danger" onclick="removeAllBlocks()" role="button">Remove all blocks</button><br>
+
+      <input id='scriptNumText' type="text" name="" placeholder="Script number"> <input id='actorText' type="text" name="" placeholder="Actor number"> 
+      <button class="btn btn-lg btn-success" onclick="getBlocking()" role="button">Get blocking</button>
+
+      <div id='blocks' class="row marketing">
+        <!-- Blocks will be populated in this element. -->
+      </div>
+
+      <footer class="footer">
+        <p>CSC301 Winter 2019</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="js/actor.js"></script>
+  </body>
+</html>

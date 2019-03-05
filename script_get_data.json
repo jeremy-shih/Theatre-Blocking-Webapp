@@ -1,0 +1,6 @@
+{ "script_text" : "That's it Claudius, I'm leaving!Fine! Oh..he left already..", 
+    "actor_number" : {"Hamlet" : 1,  "Claudius": 2}, "blocking" : [{"part_number" : 1, "char_start": 0,
+            "char_end" : 31, "actors" : ["Hamlet", "Claudius"], "actors_positions" : [5, 2], 
+            "actors_position" : {"1" : 5, "2" : 2}}, {"part_number" : 2, 
+            "char_start": 32, "char_end" : 58, "actors" : ["Hamlet", "Claudius"], 
+            "actors_positions" : [0, 3], "actors_to_positions" : {"1" : 0, "2" : 3}}]}
